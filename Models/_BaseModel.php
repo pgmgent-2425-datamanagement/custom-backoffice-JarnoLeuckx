@@ -97,7 +97,7 @@ class BaseModel {
         $this->deleteById( $this->pk );
     }
 
-    private function getClassName($classname) {
+    public function getClassName($classname) {
         return (substr($classname, strrpos($classname, '\\') + 1));
     }
     
