@@ -7,4 +7,7 @@
 
 <?php
 
-foreach($books as item)
+foreach($books as $item){
+    include 'books/item.php'
+
+}
