@@ -9,7 +9,7 @@ class Book extends BaseModel {
   
     public function save() {
 
-        $sql = "UPDATE books SET name = :name, title = :title WHERE id = :id";
+        $sql = "UPDATE books SET title = :title WHERE id = :id";
 
         $pdo_statement = $this->db->prepare($sql);
         $pdo_statement->execute([
