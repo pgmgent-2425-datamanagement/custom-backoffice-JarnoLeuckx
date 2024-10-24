@@ -14,7 +14,6 @@ class Book extends BaseModel {
         $pdo_statement = $this->db->prepare($sql);
         $pdo_statement->execute([
             ':title' => $this->title,
-            
             ':id' => $this->id,
         ]);
     }

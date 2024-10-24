@@ -2,8 +2,8 @@
 
 //$router->get('/', function() { echo 'Dit is de index vanuit de route'; });
 $router->setNamespace('\App\Controllers');
-$router->get('/', 'BookController@index');
-
+$router->get('/', 'HomeController@index');
+$router->get('/book', 'BookController@all');
 
 $router->get('/book/edit/(\d+)', 'BookController@edit');
 $router->post('/book/edit/(\d+)', 'BookController@edit');
