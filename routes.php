@@ -4,6 +4,7 @@
 $router->setNamespace('\App\Controllers');
 $router->get('/', 'HomeController@index');
 $router->get('/book', 'BookController@all');
+$router->get('/book/add', 'BookController@add');
 
 $router->get('/book/edit/(\d+)', 'BookController@edit');
 $router->post('/book/edit/(\d+)', 'BookController@edit');
