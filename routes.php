@@ -7,6 +7,7 @@ $router->get('/book', 'BookController@all');
 
 $router->get('/book/edit/(\d+)', 'BookController@edit');
 $router->post('/book/edit/(\d+)', 'BookController@edit');
+$router->get('/book/delete/(\d+)', 'BookController@delete');
 
 
 $router->get('/api/get_book', 'BookController@get_book');

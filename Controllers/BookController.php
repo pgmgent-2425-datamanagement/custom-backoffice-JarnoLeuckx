@@ -34,5 +34,14 @@ public static function all () {
         
     ]);
 }
-
+public static function delete($id){
+    $book = Book::deleteById($id);
+    
+   header(
+         'Location: /book'
+   );
+         
+   
 }
+}
+
