@@ -13,7 +13,7 @@
     <nav>
         <a href="/">Home</a>
         <a href="/book">Book</a>
-        <a href="#">item 3</a>
+        <a href="/author">Author</a>
         <a href="#">item 4</a>
     </nav>
 
