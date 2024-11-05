@@ -4,7 +4,7 @@ namespace App\Models;
 
 use App\Models\BaseModel;
 
-class Book extends BaseModel {
+class Author extends BaseModel {
 
   
     public function save() {
