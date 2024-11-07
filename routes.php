@@ -7,6 +7,8 @@ $router->get('/book', 'BookController@all');
 
 
 $router->get('/author', 'AuthorController@all');
+$router->get('/author/edit/(\d+)', 'AuthorController@edit');
+$router->post('/author/edit/(\d+)', 'AuthorController@edit');
 
 
 $router->get('/book/edit/(\d+)', 'BookController@edit');
