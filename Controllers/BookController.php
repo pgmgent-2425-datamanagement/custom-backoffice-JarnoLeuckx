@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models\Book;
+use Book;
 
 class BookController extends BaseController {
 
